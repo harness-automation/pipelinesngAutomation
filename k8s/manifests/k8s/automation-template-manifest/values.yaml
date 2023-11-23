@@ -1,0 +1,3 @@
+namePrefix: <+stage.variables.resourceNamePrefix>
+
+image: library/nginx:latest

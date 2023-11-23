@@ -1,0 +1,10 @@
+
+{
+  "function": {
+    "name": "<+serviceVariables.functionName>",
+    "runtime": "37837873@$@%",
+    "entryPoint": "HelloWorld.Function",
+    "httpsTrigger":
+      "securityLevel": SECURE_OPTIONAL
+  }
+}
