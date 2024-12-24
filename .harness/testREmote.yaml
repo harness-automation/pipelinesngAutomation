@@ -1,0 +1,22 @@
+pipeline:
+  name: testREmote
+  identifier: testREmote
+  tags: {}
+  projectIdentifier: DoNotDelete_Bhumij
+  orgIdentifier: default
+  stages:
+    - stage:
+        name: te
+        identifier: te
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Wait
+                  name: Wait_1
+                  identifier: Wait_1
+                  spec:
+                    duration: 10m
+        tags: {}
